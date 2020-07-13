@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+   <div class="parent">
+   	  <div class="row">
+   	  	<div class="col-lg-2">
+   	  	<div class="child border">
+   	  	</div>
+   	  	</div>
+   	  	<div class="col">
+   	  	<div class="child1 border">
+   	  		
+   	  	</div>
+   	  </div>
+   	  </div>
+      
+   </div>
+</body>
+</html>
+<script type="text/javascript">
+	var child = document.querySelector(".child");
+	var child1= document.querySelector(".child1");
+	var img=document.createElement("img");
+	img.setAttribute("src","image/user.svg");
+	img.setAttribute("width","100");
+	img.setAttribute("height","100");
+	img.setAttribute("alt","user image");
+	child.append(img);
+	var br=document.createElement("br");
+	child.append(br);
+	var name=document.createElement("h2").textContent='vibhav';
+	child.append(name);
+	var br1=document.createElement("br");
+	child.append(br1);
+	var role=document.createElement("h4").textContent='Web Developer and App Developer';
+	child.append(role);
+	var hr=document.createElement("hr");
+	child.append(hr);
+	var anchor=document.createElement('a');
+    anchor.href='mailto:vibhavchirravuri996@gmail.com';
+    var element = document.createElement("img");
+    element.setAttribute("src", "image/email.svg");
+    element.setAttribute("width","25");
+	element.setAttribute("height","25");
+    anchor.appendChild(element);
+    child.appendChild(anchor);
+    var anchor1=document.createElement('a');
+    anchor1.href='tel:6302944495';
+    var element1 = document.createElement("img");
+    element1.setAttribute("src", "image/phone.svg");
+    element1.setAttribute("width","25");
+	element1.setAttribute("height","25");
+    anchor1.appendChild(element1);
+    child.appendChild(anchor1);
+    var anchor2=document.createElement('a');
+    anchor2.href='https://www.facebook.com/vibhav.chirravuri.3';
+    var element2 = document.createElement("img");
+    element2.setAttribute("src", "image/logo.svg");
+    element2.setAttribute("width","25");
+	element2.setAttribute("height","25");
+    anchor2.appendChild(element2);
+    child.appendChild(anchor2);
+    var anchor3=document.createElement('a');
+    anchor3.href='https://github.com/csvultrainstinct';
+    var element3 = document.createElement("img");
+    element3.setAttribute("src", "image/github-logo.svg");
+    element3.setAttribute("width","25");
+	element3.setAttribute("height","25");
+    anchor3.appendChild(element3);
+    child.appendChild(anchor3);
+    var info = document.createElement("h2").textContent="INFO:";
+    child1.append(info);
+    var br2=document.createElement("br");
+    child1.append(br2);
+    var p = document.createElement("p").textContent="My name is vibhav and i am a computer science engineer and intrested in learning advanced tech and doing some social things.";
+    child1.append(p);
+    var br3=document.createElement("br");
+    child1.append(br3);
+    var edu = document.createElement("h2").textContent="EDUCATION:"
+    child1.append(edu);
+    var br4=document.createElement("br");
+    child1.append(br4);
+    var p1 = document.createElement("p").textContent="I am curretly studying in srm university ap and my cgpa is 9.0.";
+    child1.append(p1);
+    var br5=document.createElement("br");
+    child1.append(br5);
+    var h=document.createElement("h2").textContent="HOBBIES:";
+    child1.append(h);
+    var br6=document.createElement("br");
+    child1.append(br6);
+    var l=document.createElement("LI");
+    var a = document.createTextNode("Astronomy");
+    child1.append(a);
+    var br7=document.createElement("br");
+    child1.append(br7);
+    var b = document.createTextNode("anime");
+    child1.append(b);
+    var br8=document.createElement("br");
+    child1.append(br8);
+    var c = document.createTextNode("app development");
+    child1.append(c);
+    var br9=document.createElement("br");
+    child1.append(br9);
+    var d = document.createTextNode("freelancing websites");
+    child1.append(d);
+    var brr=document.createElement("br");
+    child1.append(brr);
+    
+    var ac=document.createElement("h2").textContent="ACHIEVEMENTS:";
+    child1.append(ac);
+    var br10=document.createElement("br");
+    child1.append(br10);
+    var la=document.createElement("LI");
+    var e = document.createTextNode("Imo gold medalist");
+    child1.append(e);
+    var br11=document.createElement("br");
+    child1.append(br11);
+    var f = document.createTextNode("2nd place in hackathon");
+    child1.append(f);
+    var br12=document.createElement("br");
+    child1.append(br12);
+    var g = document.createTextNode("completing internship and getting stipend");
+    child1.append(g);
+  </script>
